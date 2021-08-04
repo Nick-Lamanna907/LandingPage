@@ -1,7 +1,7 @@
 /* Applies to all elements */
 * {
   box-sizing: border-box;
-  font-family: "Lucida Sans", sans-serif;
+  font-family: 'Trebuchet MS', sans-serif;
 }
 
 /* For all a tags */
@@ -14,7 +14,12 @@ a:hover {
 
 /* For the body */
 body {
-  background-color: red;
+  background-color: #a1c3d1;
+  background-image: url("https://offeo.com/learn/wp-content/uploads/2018/12/Pastel-1024x683.jpg");
+  height: 700px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* For row formatting??? */
@@ -42,7 +47,7 @@ body {
 
 /* Applies to the heading */
 .header {
-  background-color: #b362ce;
+  background-color: #b39bc8;
   color: #ffffff;
   padding: 15px;
 }
@@ -57,11 +62,11 @@ body {
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #33b5e5;
+  background-color: #f172a1;
   color: #ffffff;
 }
 .menu li:hover {
-  background-color: #0066aa;
+  background-color: #e69348;
 }
 
 /* Applies to the links in the link pages */
